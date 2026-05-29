@@ -2,7 +2,7 @@
 
 ![Playwright](https://img.shields.io/badge/Playwright-API%20Testing-2ea44f)
 ![TypeScript](https://img.shields.io/badge/TypeScript-Strict-3178c6)
-[![CI](https://github.com/samiaco99/api-automation-playwright-dummyjson/actions/workflows/playwright.yml/badge.svg)](https://github.com/samiaco99/api-automation-playwright-dummyjson/actions/workflows/playwright.yml)
+ 
 
 Playwright + TypeScript API automation project for the public
 [DummyJSON](https://dummyjson.com) API. Built as a portfolio project: practical enough to show
