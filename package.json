@@ -1,0 +1,39 @@
+{
+  "name": "api-automation-playwright-dummyjson",
+  "version": "1.0.0",
+  "description": "Playwright API automation portfolio project for the public DummyJSON API.",
+  "author": "samiaco99",
+  "keywords": [
+    "playwright",
+    "api-testing",
+    "typescript",
+    "qa-automation",
+    "test-automation"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test --project=api",
+    "test:unit": "playwright test --project=unit",
+    "test:smoke": "playwright test --project=api --grep @smoke",
+    "test:regression": "playwright test --project=api --grep @regression",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write \"**/*.{ts,md,json,yml,yaml}\"",
+    "format:check": "prettier --check \"**/*.{ts,md,json,yml,yaml}\""
+  },
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^22.19.19",
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.3.0",
+    "typescript": "^5.6.0",
+    "typescript-eslint": "^8.0.0"
+  }
+}
